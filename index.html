@@ -54,7 +54,15 @@
   .diagram .note { font-size: 15px; color: var(--muted); margin: 20px 0 0; }
 
   /* idea */
-  .idea { padding: 72px 0; border-top: 1px solid var(--line-soft); }
+  .idea { padding: 80px 0 88px; background: var(--bg, var(--paper)); }
+  .idea .eyebrow { color: var(--tone, var(--blue-deep)); }
+  .idea .eyebrow::before { background: var(--tone, var(--blue)); }
+  #admisiones { --bg: #EAF1FD; --tone: #1C4FB0; }
+  #buscador   { --bg: #E8F4EC; --tone: #23753A; }
+  #intereses  { --bg: #F0ECFB; --tone: #5B3FB0; }
+  #donantes   { --bg: #FBF0E2; --tone: #9A5A12; }
+  #editores   { --bg: #E3F3F3; --tone: #1D6E70; }
+  #contenido  { --bg: #FBEAEE; --tone: #A3324F; }
   .idea-head { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 32px; max-width: 820px; }
   .idea-head h2 { font-size: clamp(32px, 4.4vw, 52px); line-height: 1.1; }
   .idea-head p { color: var(--muted); font-size: 18px; margin: 4px 0 0; }
